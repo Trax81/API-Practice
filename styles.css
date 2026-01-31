@@ -4,20 +4,31 @@
 /* Nav Bar */
 
 .navbar {
-    height:20%;
+    height:50px;
+ 
 }
 
 .row {
     display:flex;
     flex-direction:row;
+   
 }
 
-img {
-    width: 30%;
+.logo {
+    width:10%;
 }
 
-.img-size {
+.links {
 
-    width:30%;
+    display:flex;
+    flex-direction:row;
+    margin-left:200px;
+    
+    
+    
 
+}
+
+.link {
+  margin-right:20px;
 }
