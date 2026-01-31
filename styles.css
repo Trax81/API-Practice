@@ -1,0 +1,23 @@
+
+
+
+/* Nav Bar */
+
+.navbar {
+    height:20%;
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+}
+
+img {
+    width: 30%;
+}
+
+.img-size {
+
+    width:30%;
+
+}
