@@ -72,9 +72,10 @@ header .row {
 
 .search-input {
     
-    width:50%;
-    font-size:30px;
+    width:30%;
+    font-size:20px;
     border-radius:40px;
+   
     
     
 }
@@ -82,22 +83,38 @@ header .row {
 .search-btn {
     background-color:yellow;
     color:black;
-    width:15%;
+    width:19%;
     border-radius:40px;
-    font-size:30px;
+    font-size:25px;
     margin-left:30px;
 }
 
 .row .search-input {
-    margin-left:250px;
-    margin-top:150px;
+    margin-left:100px;
+    margin-top:200px;
     
 }
 
+
 .search-background {
-    width:60%;
-    margin-top:30px;
+    width:80%;
+    margin-top:20px;
     position:absolute;
     margin-bottom:40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
 }
 
+.sub-title {
+    font-size:40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-top:120px;
+    position:absolute;
+    margin-bottom:40px;
+    left: 36%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    color:white;
+
+}
