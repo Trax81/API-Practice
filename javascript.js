@@ -2,20 +2,8 @@
 
 const input = document.querySelector(".search-input");
 const button = document.querySelector(".search-btn");
+const resultsContainer = document.querySelector(".results");
 
-button.addEventListener("click", async () => {
-  const searchValue = input.value;
-
-  const response = await fetch(
-    `http://www.omdbapi.com/?s=${searchValue}&apikey=11a85b25`
-  );
-
-  const data = await response.json();
-  console.log(data);
-  resultsContainer.innerHTML = "results";
-  data.Search.forEach(movie => {
-  // create elements and append to DOM
+button.addEventListener("click", () => {
+  alert("Button clicked");
 });
-});
-
-
