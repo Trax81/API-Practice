@@ -12,4 +12,9 @@ button.addEventListener("click", async () => {
 
   const data = await response.json();
   console.log(data);
+  resultsContainer.innerHTML = "";
+});
+
+data.Search.forEach(movie => {
+  // create elements and append to DOM
 });
