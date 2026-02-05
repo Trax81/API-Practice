@@ -138,10 +138,11 @@ header .row {
    flex-direction:row;
    left:30%;
    background-color:black;
+   overflow-x:scroll;
 }
 
 h5 {
-    font-size:25px;
+    font-size:15px;
     color:lightgray;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
@@ -149,8 +150,17 @@ h5 {
 }
 
 h4 {
-    font-size:35px;
+    font-size:25px;
     color:yellow;
     font-family:helvetica;
     
+    
+}
+
+.movie-info {
+  padding-left: 20px;
+}
+
+.movie-poster {
+    border:20px solid black;
 }

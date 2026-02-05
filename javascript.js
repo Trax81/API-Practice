@@ -17,12 +17,14 @@ button.addEventListener("click", async () => {
 
   data.Search.forEach(movie => {
     resultsContainer.innerHTML += `
-      <div>
-        <img src="${movie.Poster}" alt="${movie.Title}" />
+    <div class="movie-card">
+      <img class="movie-poster" src="${movie.Poster}" alt="${movie.Title}" />
+      <div class="movie-info">
         <h4>${movie.Title}</h4>
         <h5>Year: <span>${movie.Year}</span></h5>
         <h5>Type: <span>${movie.Type}</span></h5>
       </div>
-    `;
+    </div>
+  `;
   });
 });
