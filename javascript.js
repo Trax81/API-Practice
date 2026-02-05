@@ -13,18 +13,16 @@ button.addEventListener("click", async () => {
 
   const data = await response.json();
 
-  console.log(data);
-});
+  resultsContainer.innerHTML = "";
 
-resultsContainer.innerHTML = "";
-
-data.Search.forEach(movie => {
-  resultsContainer.innerHTML += `
-    <div >
-      <img src="${movie.Poster}" alt="${movie.Title}" />
-      <h4>${movie.Title}</h4>
-      <h5>Year: <span>${movie.Year}</span></h5>
-      <h5>Type: <span>${movie.Type}</span></h5>
-    </div>
-  `;
+  data.Search.forEach(movie => {
+    resultsContainer.innerHTML += `
+      <div>
+        <img src="${movie.Poster}" alt="${movie.Title}" />
+        <h4>${movie.Title}</h4>
+        <h5>Year: <span>${movie.Year}</span></h5>
+        <h5>Type: <span>${movie.Type}</span></h5>
+      </div>
+    `;
+  });
 });
