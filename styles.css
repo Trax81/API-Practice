@@ -172,8 +172,12 @@ h4 {
 @media(max-width:480px) {
 
 .sub-title {
-    margin-right:300px;
+  margin-left: 0;
+  transform: none;
+  text-align: center;
+  font-size:25px;
 }
+
 .link {
     font-size:15px;
     margin-top:15px;
@@ -184,8 +188,47 @@ h4 {
 }
 .search-btn {
     font-size:15px;
-    margin-right:30px;
+    margin-right:60px;
+      margin-left: 0;
+  transform: none;
+  text-align: center;
+  
+}
+.row .search-input {
+    
+margin-left:20px;
+width:40%;
+    
+}
+
+.instructions {
+    font-size:20px;
+     margin-left: 0;
+  transform: none;
+  text-align: center;
+  font-size:25px;
 }
 
 
+}
+
+
+@media(max-width:768px) {
+    .sub-title {
+        font-size:25px;
+        margin-left:335px;
+    }
+
+    .search-btn {
+        margin-left:50px;
+    }
+
+    .row .search-input {
+        margin-left:150px;
+    }
+
+    .instructions {
+        margin-right:140px;
+        font-size:25px;
+    }
 }
