@@ -164,3 +164,48 @@ h4 {
 .movie-poster {
     border:20px solid black;
 }
+
+
+
+/* Styles for mobile */
+
+@media(max-width:480px) {
+   h3 {
+    font-size:15px; 
+    margin-top:30px;
+   }
+
+   .btn-contact {
+    margin-bottom:15px;
+   }
+   .row .search-input {
+    margin-left:100px;
+    margin-top:115px;
+    
+}
+
+    .sub-title {
+        font-size:15px;
+        margin-bottom:150px;
+    }
+
+    .search-btn {
+    background-color:yellow;
+    color:black;
+    width:19%;
+    border-radius:40px;
+    font-size:15px;
+    margin-left:20px;
+}
+
+.instructions {
+    font-size:15px;
+    margin-right:200px;
+}
+
+.search-input {
+    width:40%;
+    margin-bottom:50px;
+}
+
+}
