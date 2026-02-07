@@ -8,7 +8,7 @@ button.addEventListener("click", async () => {
   const searchValue = input.value;
 
   const response = await fetch(
-    `http://www.omdbapi.com/?s=${searchValue}&apikey=11a85b25`
+    `https://www.omdbapi.com/?s=${searchValue}&apikey=11a85b25`
   );
 
   const data = await response.json();
