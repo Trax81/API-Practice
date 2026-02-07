@@ -169,6 +169,32 @@ h4 {
 
 /* Styles for mobile */
 
+@media(max-width:768px) {
+    .sub-title {
+        font-size:25px;
+        margin-left:335px;
+    }
+
+    .search-btn {
+        margin-left:50px;
+    }
+
+    .row .search-input {
+        margin-left:150px;
+    }
+
+    .instructions {
+        margin-right:140px;
+        font-size:25px;
+    }
+}
+
+
+
+
+
+
+
 @media(max-width:480px) {
 
 .sub-title {
@@ -203,7 +229,7 @@ width:40%;
 
 .instructions {
     font-size:20px;
-     margin-left: 0;
+     margin-left: 30px;
   transform: none;
   text-align: center;
   font-size:25px;
@@ -213,22 +239,3 @@ width:40%;
 }
 
 
-@media(max-width:768px) {
-    .sub-title {
-        font-size:25px;
-        margin-left:335px;
-    }
-
-    .search-btn {
-        margin-left:50px;
-    }
-
-    .row .search-input {
-        margin-left:150px;
-    }
-
-    .instructions {
-        margin-right:140px;
-        font-size:25px;
-    }
-}
