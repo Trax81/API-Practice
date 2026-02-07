@@ -39,10 +39,10 @@
 .btn-contact {
     margin-left:45px;
     margin-right:20px;
-    margin-top:20px;
+    margin-top:17px;
     font-size:15px;
     text-decoration: none;
-    width:65%;
+    width:50%;
     height:15%;
     border:4px yellow;
     border-radius: 30px;
@@ -52,7 +52,11 @@
     background-color: yellow;
     color: black !important;
 }
-
+h3 {
+    margin-left:50px;
+    font-size:25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 
 
