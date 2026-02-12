@@ -1,4 +1,8 @@
-
+* {
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
 
 
 /* Nav Bar */
@@ -168,6 +172,36 @@ h4 {
 .movie-poster {
     border:20px solid black;
 }
+
+
+/* Footer */
+
+
+.footer {
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.footer__logo {
+    max-width:200px;
+}
+
+.footer__links {
+    margin-bottom:32px;
+}
+
+.footer__link {
+    padding: 0 16px;
+}
+
+
+
+
+
+
+
 
 
 
