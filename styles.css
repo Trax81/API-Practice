@@ -253,6 +253,15 @@ footer {
 
 }
 
+.search-btn {
+    width:30%;
+    margin-left:20px;
+}
+
+.search-input {
+    width:50%;
+}
+
 }
 
 
