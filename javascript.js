@@ -16,9 +16,16 @@ button.addEventListener("click", async () => {
   resultsContainer.innerHTML = "";
 
   data.Search.forEach(movie => {
+
+const poster = movie.Poster !== "N/A"
+  ? movie.Poster
+  : "./assets/Poster-Not-Available.jpg"; // your default image
+
+
+
     resultsContainer.innerHTML += `
     <div class="movie-card">
-      <img class="movie-poster" src="${movie.Poster}" alt="${movie.Title}" />
+      <img class="movie-poster" src="${poster}" alt="${movie.Title}" />
       <div class="movie-info">
         <h4>${movie.Title}</h4>
         <h5>Year: <span>${movie.Year}</span></h5>
