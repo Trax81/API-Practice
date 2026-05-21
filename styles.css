@@ -12,6 +12,7 @@
 .container {
    width:100%; 
    padding:56px 12px;
+   
 }
 
 .row {
@@ -97,7 +98,7 @@ header .row {
   }
  
 .search {
-  background-image: url("./assets/Moviebg.jpg");
+  background-image: url("./assets/darktheater.jpg");
   background-size: cover;
   background-position: center;
   height: 500px; /* adjust this */
@@ -105,6 +106,7 @@ header .row {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .search-btn {
@@ -140,6 +142,8 @@ header .row {
     color:blanchedalmond;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
 
 
 /*  Results Section */
